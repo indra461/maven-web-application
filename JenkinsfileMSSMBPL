@@ -35,7 +35,7 @@ stage('Email')
 {
 emailext body: '''
 
-Indra''', subject: 'Build over', to: 'indra461.reddy@gmail.com'
+Indra''', subject: 'Build over', to: 'indra461@gmail.com'
 }
 
 
